@@ -1,0 +1,4 @@
+# ninja log v5
+1	63	1721946530757147869	CMakeFiles/libcerver.dir/src/server.c.o	769ba2d06612e2e1
+1	73	1721946530769148281	CMakeFiles/libcerver.dir/src/main.c.o	42a6f92224771915
+73	112	1721946530805149516	libcerver	37d673005cbbce50

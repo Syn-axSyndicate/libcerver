@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/rachit/Desktop/portfolio/libcerver/build",
+  "command": "/usr/bin/cc -g -o CMakeFiles/libcerver.dir/src/main.c.o -c /home/rachit/Desktop/portfolio/libcerver/src/main.c",
+  "file": "/home/rachit/Desktop/portfolio/libcerver/src/main.c"
+},
+{
+  "directory": "/home/rachit/Desktop/portfolio/libcerver/build",
+  "command": "/usr/bin/cc -g -o CMakeFiles/libcerver.dir/src/server.c.o -c /home/rachit/Desktop/portfolio/libcerver/src/server.c",
+  "file": "/home/rachit/Desktop/portfolio/libcerver/src/server.c"
+}
+]

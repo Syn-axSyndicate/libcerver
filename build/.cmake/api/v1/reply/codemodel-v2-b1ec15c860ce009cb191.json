@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "libserver::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-libserver-Debug-eb3d43298af8e15fbf26.json",
-					"name" : "libserver",
+					"id" : "libcerver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libcerver-Debug-710d91eafad8b4906efd.json",
+					"name" : "libcerver",
 					"projectIndex" : 0
 				}
 			]
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/rachit/Desktop/portfolio/libcerver/out/build/Configure preset using toolchain file",
+		"build" : "/home/rachit/Desktop/portfolio/libcerver/build",
 		"source" : "/home/rachit/Desktop/portfolio/libcerver"
 	},
 	"version" : 

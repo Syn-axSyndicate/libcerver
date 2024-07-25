@@ -1,3 +1,0 @@
-/home/rachit/Desktop/portfolio/libcerver/out/build/Configure preset using toolchain file/CMakeFiles/libserver.dir
-/home/rachit/Desktop/portfolio/libcerver/out/build/Configure preset using toolchain file/CMakeFiles/edit_cache.dir
-/home/rachit/Desktop/portfolio/libcerver/out/build/Configure preset using toolchain file/CMakeFiles/rebuild_cache.dir

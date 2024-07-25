@@ -39,47 +39,55 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/rachit/Desktop/portfolio/libcerver/out/build/Configure$ preset$ using$ toolchain$ file/
+cmake_ninja_workdir = /home/rachit/Desktop/portfolio/libcerver/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target libserver
+# Object build statements for EXECUTABLE target libcerver
 
 
 #############################################
-# Order-only phony target for libserver
+# Order-only phony target for libcerver
 
-build cmake_object_order_depends_target_libserver: phony || CMakeFiles/libserver.dir
+build cmake_object_order_depends_target_libcerver: phony || CMakeFiles/libcerver.dir
 
-build CMakeFiles/libserver.dir/src/main.c.o: C_COMPILER__libserver_Debug /home/rachit/Desktop/portfolio/libcerver/src/main.c || cmake_object_order_depends_target_libserver
-  DEP_FILE = CMakeFiles/libserver.dir/src/main.c.o.d
+build CMakeFiles/libcerver.dir/src/main.c.o: C_COMPILER__libcerver_Debug /home/rachit/Desktop/portfolio/libcerver/src/main.c || cmake_object_order_depends_target_libcerver
+  DEP_FILE = CMakeFiles/libcerver.dir/src/main.c.o.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/libserver.dir
-  OBJECT_FILE_DIR = CMakeFiles/libserver.dir/src
-  TARGET_COMPILE_PDB = CMakeFiles/libserver.dir/
-  TARGET_PDB = libserver.pdb
+  OBJECT_DIR = CMakeFiles/libcerver.dir
+  OBJECT_FILE_DIR = CMakeFiles/libcerver.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/libcerver.dir/
+  TARGET_PDB = libcerver.pdb
+
+build CMakeFiles/libcerver.dir/src/server.c.o: C_COMPILER__libcerver_Debug /home/rachit/Desktop/portfolio/libcerver/src/server.c || cmake_object_order_depends_target_libcerver
+  DEP_FILE = CMakeFiles/libcerver.dir/src/server.c.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/libcerver.dir
+  OBJECT_FILE_DIR = CMakeFiles/libcerver.dir/src
+  TARGET_COMPILE_PDB = CMakeFiles/libcerver.dir/
+  TARGET_PDB = libcerver.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target libserver
+# Link build statements for EXECUTABLE target libcerver
 
 
 #############################################
-# Link the executable libserver
+# Link the executable libcerver
 
-build libserver: C_EXECUTABLE_LINKER__libserver_Debug CMakeFiles/libserver.dir/src/main.c.o
+build libcerver: C_EXECUTABLE_LINKER__libcerver_Debug CMakeFiles/libcerver.dir/src/main.c.o CMakeFiles/libcerver.dir/src/server.c.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/libserver.dir
+  OBJECT_DIR = CMakeFiles/libcerver.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/libserver.dir/
-  TARGET_FILE = libserver
-  TARGET_PDB = libserver.pdb
+  TARGET_COMPILE_PDB = CMakeFiles/libcerver.dir/
+  TARGET_FILE = libcerver
+  TARGET_PDB = libcerver.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/rachit/Desktop/portfolio/libcerver/out/build/Configure preset using toolchain file" && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/rachit/Desktop/portfolio/libcerver/build && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -90,7 +98,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/rachit/Desktop/portfolio/libcerver/out/build/Configure preset using toolchain file" && /usr/bin/cmake --regenerate-during-build -S/home/rachit/Desktop/portfolio/libcerver -B"/home/rachit/Desktop/portfolio/libcerver/out/build/Configure preset using toolchain file"
+  COMMAND = cd /home/rachit/Desktop/portfolio/libcerver/build && /usr/bin/cmake --regenerate-during-build -S/home/rachit/Desktop/portfolio/libcerver -B/home/rachit/Desktop/portfolio/libcerver/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -106,9 +114,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/rachit/Desktop/portfolio/libcerver/out/build/Configure preset using toolchain file
+# Folder: /home/rachit/Desktop/portfolio/libcerver/build
 
-build all: phony libserver
+build all: phony libcerver
 
 # =============================================================================
 # Built-in targets
